@@ -4,9 +4,14 @@ const path = require('path');
 const routeStatic = require('./lib/route-static');
 const redirectIndices = require('./lib/redirect-indices');
 
+
+
 const app = express();
 const baseDir = 'src';
 const port = process.env.PORT || 3004;
+
+
+const critical = require('critical');
 
 app.set('etag', false);
 app.use((req, res, next) => { res.removeHeader('X-Powered-By'); next(); });
@@ -31,3 +36,15 @@ app.listen(port, (err) => {
     err ? console.error(err) : console.log(`app running on http://localhost:${port}`);
 });
 
+
+critical.generate({
+    inline: false,
+    base: 'src/',
+    src: 'index.html',
+    // css: 'src/assets/css/src/docs.css',
+    css: 'src/dist/css/bootstrap.css',
+    dest: 'index-critical.css',
+    minify: true,
+    width: 1300,
+    height: 900
+});
