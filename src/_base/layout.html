@@ -1,1 +1,34 @@
-<!DOCTYPE html><html lang="en"><head> {% include './app-meta.html' %} <link href="/dist/css/fonts.css" rel="stylesheet"> <link href="/dist/css/bootstrap.css" rel="stylesheet"> <link href="/assets/css/src/docs.css" rel="stylesheet"> {% block head_extra %}{% endblock %}</head><body {% block body_attributes %}{% endblock %}> {% block body %}{% endblock %} <script src="/assets/js/vendor/jquery.min.js"></script> <script src="/dist/js/bootstrap.js"></script> <script src="/assets/js/docs.min.js"></script> <script src="/assets/js/ie10-viewport-bug-workaround.js"></script> {% block scripts_extra %}{% endblock %}</body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include './app-meta.html' %}
+    
+
+
+    <link rel="preload" href="/dist/css/bootstrap.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/dist/css/bootstrap.css"></noscript>
+    
+    <link rel="preload" href="/assets/css/src/docs.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/assets/css/src/docs.css"></noscript>
+
+    <link rel="preload" href="/dist/css/fonts.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/dist/css/fonts.css"></noscript>
+
+    <script src="assets/js/css-loading.js"></script>
+    
+
+    {% block head_extra %}{% endblock %}
+</head>
+
+<body {% block body_attributes %}{% endblock %}>
+
+    {% block body %}{% endblock %}
+
+    <script src="/assets/js/vendor/jquery.min.js"></script>
+    <script src="/dist/js/bootstrap.js"></script>
+    <script src="/assets/js/docs.min.js"></script>
+    <script src="/assets/js/ie10-viewport-bug-workaround.js"></script>
+    {% block scripts_extra %}{% endblock %}
+</body>
+</html>
+

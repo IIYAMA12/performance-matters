@@ -1,3 +1,34 @@
+
+### Async css loading
+
+
+```HTML
+    <link rel="preload" href="/dist/css/bootstrap.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/dist/css/bootstrap.css"></noscript>
+    
+    <link rel="preload" href="/assets/css/src/docs.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/assets/css/src/docs.css"></noscript>
+
+    <link rel="preload" href="/dist/css/fonts.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/dist/css/fonts.css"></noscript>
+
+    <script src="assets/js/css-loading.js"></script>
+```
+
+```JS
+window.addEventListener("load", (e) =>  {
+    window.loadCSS("/dist/css/fonts.css");
+    window.loadCSS("/assets/css/src/docs.css");
+    window.loadCSS("/dist/css/bootstrap.css");
+});
+```
+
+This code will make sure that the css is downloaded after the window has been loaded.
+
+For more information see: [loadCSS](https://github.com/filamentgroup/loadCSS)
+
+# Website optimization
+
 ### Critical css module
 This module is used to generate automatic critical css for a HTML & CSS file. It will automatic save it in to another file, which you can later include in your html.
 
@@ -135,6 +166,7 @@ Fonts are secondary content, that's why I moved it as last to make sure that it 
 
 <link href="/dist/css/fonts.css" rel="stylesheet">
 ```
+
 
 
 
