@@ -16,7 +16,7 @@ See [Lighthouse](https://developers.google.com/web/tools/lighthouse/) performanc
 
 <details>
     <summary>Performance after</summary>
-    <img src="https://raw.githubusercontent.com/IIYAMA12/performance-matters/master/readme-content/readme-content/performanceAfter.png" alt="Performance after">
+    <img src="https://raw.githubusercontent.com/IIYAMA12/performance-matters/master/readme-content/performanceAfter.png" alt="Performance after">
 </details>
 
 ## Improvements
