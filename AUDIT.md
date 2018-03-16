@@ -40,9 +40,9 @@ Include the critical css with the template engine.
 
 ### SVG optimization
 Is used to deincreasing the file size. This will reduce the SVG load time.
-This doesn't only optimize the file size, but it can also increased the readability. 
+It doesn't only optimize the file size, but it can also increase the readability. 
 
-This tool has a lot of options:
+This tool has a lot of options: (Also included in the interface)
 [Options](https://github.com/svg/svgo#what-it-can-do)
 
 <details>
