@@ -18,6 +18,11 @@ Differences from actual Bootstrap documentation:
 - Expose localhost: `npm run expose`
 
 
+
+### Minify CSS
+Is used to deincreasing the file size. This will reduce the page download time.
+[Tool minifier](https://www.minifier.org/)
+
 ### Font optimization
 
 #### Change the font-display
@@ -42,3 +47,4 @@ Fonts are secondary content, that's why I moved it as last to make sure that it 
 
 <link href="/dist/css/fonts.css" rel="stylesheet">
 ```
+
