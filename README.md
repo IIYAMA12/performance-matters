@@ -19,6 +19,11 @@ Differences from actual Bootstrap documentation:
 
 
 
+### Minify JS
+Is used to deincreasing the file size. This will reduce the page download time.
+[Tool JSCompress](https://jscompress.com/)
+
+
 ### Minify HTML
 Is used to deincreasing the file size. This will reduce the page download time.
 [Tool minifycode](http://minifycode.com/html-minifier/)
@@ -52,4 +57,5 @@ Fonts are secondary content, that's why I moved it as last to make sure that it 
 
 <link href="/dist/css/fonts.css" rel="stylesheet">
 ```
+
 
