@@ -2,6 +2,31 @@
 Is used to deincreasing the file size. This will reduce the page download time.
 [Tool minifycode](http://minifycode.com/html-minifier/)
 
+Before:
+```HTML
+<ul class="nav navbar-nav">
+    <li>
+        <a href="../getting-started/">Getting started</a>
+    </li>
+    <li>
+        <a href="../css/">CSS</a>
+    </li>
+    <li>
+        <a href="../components/">Components</a>
+    </li>
+    <li>
+        <a href="../javascript/">JavaScript</a>
+    </li>
+    <li>
+        <a href="../customize/">Customize</a>
+    </li>
+</ul>
+```
+
+After:
+```HTML
+<ul class="nav navbar-nav"> <li> <a href="../getting-started/">Getting started</a> </li> <li> <a href="../css/">CSS</a> </li> <li> <a href="../components/">Components</a> </li> <li> <a href="../javascript/">JavaScript</a> </li> <li> <a href="../customize/">Customize</a> </li> </ul>
+```
 
 ### Minify CSS
 Is used to deincreasing the file size. This will reduce the page download time.
