@@ -1,4 +1,26 @@
 
+# Website optimization
+
+## Github pages
+![Github-pages failure](readme-content/github-pages.png)
+Github-pages failed...
+
+## Performance update after improvements
+
+See [Lighthouse](https://developers.google.com/web/tools/lighthouse/) performance results:
+
+<details>
+    <summary>Performance before</summary>
+    <img src="https://raw.githubusercontent.com/IIYAMA12/performance-matters/master/readme-content/performanceBefore.png" alt="Performance before">
+</details>
+
+<details>
+    <summary>Performance after</summary>
+    <img src="https://raw.githubusercontent.com/IIYAMA12/performance-matters/master/readme-content/readme-content/performanceAfter.png" alt="Performance after">
+</details>
+
+## Improvements
+
 ### Async css loading
 
 
@@ -27,7 +49,7 @@ This code will make sure that the css is downloaded after the window has been lo
 
 For more information see: [loadCSS](https://github.com/filamentgroup/loadCSS)
 
-# Website optimization
+
 
 ### Critical css module
 This module is used to generate automatic critical css for a HTML & CSS file. It will automatic save it in to another file, which you can later include in your html.
@@ -158,6 +180,7 @@ Now the text will be visible in a different font before loading in to the new fo
 #### Changing the css order
 Fonts are secondary content, that's why I moved it as last to make sure that it is downloaded/loaded later.
 
+```HTML
 <!-- <link href="/dist/css/fonts.css" rel="stylesheet">  -->
 <link href="/dist/css/bootstrap.css" rel="stylesheet">
 <link href="/assets/css/src/docs.css" rel="stylesheet">
