@@ -7,7 +7,7 @@ This tool has a lot of options: (Also included in the interface)
 
 <details>
     <summary>SVGOMG Preview</summary>
-    <img src="https://iiyama12.github.io/performance-matters/readme-content/SVGOMG.png" alt="svg omg interface">
+    <img src="https://raw.githubusercontent.com/IIYAMA12/performance-matters/master/readme-content/SVGOMG.png" alt="svg omg interface">
 </details>
 
 [Tool SVGOMG](https://jakearchibald.github.io/svgomg/)
