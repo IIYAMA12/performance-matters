@@ -19,6 +19,11 @@ Differences from actual Bootstrap documentation:
 
 
 
+### Minify HTML
+Is used to deincreasing the file size. This will reduce the page download time.
+[Tool minifycode](http://minifycode.com/html-minifier/)
+
+
 ### Minify CSS
 Is used to deincreasing the file size. This will reduce the page download time.
 [Tool minifier](https://www.minifier.org/)
