@@ -1,3 +1,5 @@
+# Website optimization
+
 ### Critical css module
 This module is used to generate automatic critical css for a HTML & CSS file. It will automatic save it in to another file, which you can later include in your html.
 
