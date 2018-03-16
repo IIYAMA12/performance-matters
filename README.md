@@ -16,3 +16,8 @@ Differences from actual Bootstrap documentation:
 - Install dependencies: `npm install`
 - Serve: `npm start`
 - Expose localhost: `npm run expose`
+
+
+### Minify JS
+Is used to deincreasing the file size. This will reduce the page download time.
+[Tool JSCompress](https://jscompress.com/)
