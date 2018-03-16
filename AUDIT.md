@@ -22,7 +22,6 @@ Now the text will be visible in a different font before loading in to the new fo
 #### Changing the css order
 Fonts are secondary content, that's why I moved it as last to make sure that it is downloaded/loaded later.
 
-```CSS
 <!-- <link href="/dist/css/fonts.css" rel="stylesheet">  -->
 <link href="/dist/css/bootstrap.css" rel="stylesheet">
 <link href="/assets/css/src/docs.css" rel="stylesheet">
@@ -31,4 +30,5 @@ Fonts are secondary content, that's why I moved it as last to make sure that it 
 
 <link href="/dist/css/fonts.css" rel="stylesheet">
 ```
+
 
