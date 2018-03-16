@@ -1,8 +1,11 @@
+### Minify HTML
+Is used to deincreasing the file size. This will reduce the page download time.
+[Tool minifycode](http://minifycode.com/html-minifier/)
+
 
 ### Minify CSS
 Is used to deincreasing the file size. This will reduce the page download time.
 [Tool minifier](https://www.minifier.org/)
-
 
 ### Font optimization
 
@@ -19,13 +22,13 @@ Now the text will be visible in a different font before loading in to the new fo
 #### Changing the css order
 Fonts are secondary content, that's why I moved it as last to make sure that it is downloaded/loaded later.
 
-```HTML
 <!-- <link href="/dist/css/fonts.css" rel="stylesheet">  -->
 <link href="/dist/css/bootstrap.css" rel="stylesheet">
 <link href="/assets/css/src/docs.css" rel="stylesheet">
 
 <!-- \/ -->
 
-```HTML
 <link href="/dist/css/fonts.css" rel="stylesheet">
 ```
+
+
