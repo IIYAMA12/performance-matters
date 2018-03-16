@@ -1,8 +1,21 @@
+
+
+
+
 {% extends "_base/layout.html" %}
+
+
+
+
+
 
 {%- block body_attributes %}class="bs-docs-home"{% endblock -%}
 
+
+
+
 {% block body %}
+<style>{% include 'index-critical.css' %}</style>
 <a class="sr-only sr-only-focusable" href="#content" id="skippy">
     <div class="container">
         <span class="skiplink-text">Skip to main content</span>
@@ -130,3 +143,5 @@
     </div>
 </footer>
 {% endblock %}
+
+
