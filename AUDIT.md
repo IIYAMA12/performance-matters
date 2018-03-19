@@ -1,6 +1,10 @@
 
 # Website optimization
 
+## Github pages
+![Github-pages failure](readme-content/github-pages.png)
+Github-pages failed...
+
 ## Performance update after improvements
 
 See [Lighthouse](https://developers.google.com/web/tools/lighthouse/) performance results:
