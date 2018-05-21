@@ -14,10 +14,42 @@ See [Lighthouse](https://developers.google.com/web/tools/lighthouse/) performanc
     <img src="https://raw.githubusercontent.com/IIYAMA12/performance-matters/master/readme-content/performanceBefore.png" alt="Performance before">
 </details>
 
+
 <details>
     <summary>Performance after</summary>
     <img src="https://raw.githubusercontent.com/IIYAMA12/performance-matters/master/readme-content/performanceAfter.png" alt="Performance after">
 </details>
+
+<details>
+    <summary>Performance critical css</summary>
+    <img src="https://raw.githubusercontent.com/IIYAMA12/performance-matters/master/readme-content/critical-css-1.png" alt="Performance critical css">
+    <img src="https://raw.githubusercontent.com/IIYAMA12/performance-matters/master/readme-content/critical-css-2.png" alt="Performance critical css">
+</details>
+
+<details>
+    <summary>Performance minify css</summary>
+    <img src="https://raw.githubusercontent.com/IIYAMA12/performance-matters/master/readme-content/css-minify-1.png" alt="Performance minify css">
+    <img src="https://raw.githubusercontent.com/IIYAMA12/performance-matters/master/readme-content/css-minify-2.png" alt="Performance minify css">
+</details>
+
+<details>
+    <summary>Font optimization</summary>
+    <img src="https://raw.githubusercontent.com/IIYAMA12/performance-matters/master/readme-content/font-optimization-1.png" alt="Font optimization">
+    <img src="https://raw.githubusercontent.com/IIYAMA12/performance-matters/master/readme-content/font-optimization-2.png" alt="Font optimization">
+</details>
+
+<details>
+    <summary>Image optimization</summary>
+    <img src="https://raw.githubusercontent.com/IIYAMA12/performance-matters/master/readme-content/image-opti-1.png" alt="Image optimization">
+    <img src="https://raw.githubusercontent.com/IIYAMA12/performance-matters/master/readme-content/image-opti-2.png" alt="Image optimization">
+</details>
+
+<details>
+    <summary>JS minify</summary>
+    <img src="https://raw.githubusercontent.com/IIYAMA12/performance-matters/master/readme-content/js-minify-1.png" alt="JS minify">
+    <img src="https://raw.githubusercontent.com/IIYAMA12/performance-matters/master/readme-content/js-minify-2.png" alt="JS minify">
+</details>
+
 
 ## Improvements
 
