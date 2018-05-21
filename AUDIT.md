@@ -52,7 +52,7 @@ For more information see: [loadCSS](https://github.com/filamentgroup/loadCSS)
 
 
 ### Critical css module
-This module is used to generate automatic critical css for a HTML & CSS file. It will automatic save it in to another file, which you can later include in your html.
+This module is used to generate automatic critical css from a HTML & CSS file. It will automatic save it in to another file, which you can later include in your html.
 
 
 ```JS
