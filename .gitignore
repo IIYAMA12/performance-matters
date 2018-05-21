@@ -9,3 +9,5 @@
 
 # npm cruft
 npm-debug.log
+
+src/index-critical.css
